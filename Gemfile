@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-include-cache'
 #  gem "jekyll-lunr-js-search"
+  gem "jemoji"
   gem "jekyll-gist"
   gem "jekyll-redirect-from"
 end
