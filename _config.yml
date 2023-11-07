@@ -13,16 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: research experimental studies related to on-line job search
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  centralize results of research experimental studies related to on-line job search conducted by various teams across the world
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
+logo                 : "images/LDI-image.jpg"
 search: true
+search_full_content      : true #false (default)
+search_provider          : # lunr (default), algolia, google
+license                  : "by" # use the CC short names
+license_name             : "CC BY 4.0" # will be included in alt text
+license_url              : "https://creativecommons.org/licenses/by/4.0/"
+license_image            : "ccby80x15.png" # could also be the URL
+
 
 # Build settings
 markdown: kramdown
