@@ -17,6 +17,9 @@ title: research experimental studies related to on-line job search
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   centralize results of research experimental studies related to on-line job search conducted by various teams across the world
+url                      : https://labordynamicsinstitute.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "sample-research-network" # the subpath of your site, e.g. "/blog"
+
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
