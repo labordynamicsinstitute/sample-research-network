@@ -64,9 +64,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Website for experimental studies"
+  avatar : "/images/LDI-image.jpg"
+  bio    : "Centralize results of research experimental studies related to on-line job search conducted by various teams across the world"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -119,3 +119,68 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
+  talks:
+    output: true
+    permalink: /:collection/:name
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc_sticky: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+     share: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+      toc_sticky: true
+
+scholar:
+  style: ./assets/bib/chicago-author-date-16th-edition-mod.csl
+  source: ./assets/bib
+  bibliography: network.bib
+  sort_by: author,year,title
