@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://labordynamicsinstitute.github.io/sample-research-network/sitemap.xml
